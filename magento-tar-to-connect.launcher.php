@@ -1,6 +1,6 @@
 <?php
 return array(
-'base_dir'               => '/fakehome/Documents/github/Pulsestorm/var/build',
+'base_dir'               => 'var/build',
 'archive_files'          => 'Pulsestorm_Launcher.tar',
 'extension_name'         => 'Pulsestorm_Launcher',
 'extension_version'      => '1.0.3',
