@@ -1,0 +1,17 @@
+{
+    "name": "astorm/pulsestorm-launcher",
+    "type": "magento-module",
+    "license": "MIT",
+    "description": "The Pulse storm launcher provides the Magento admin console with a Quicksilver like plugin for immediate access to Magento navigation items, system configuration sections, and the Magento global search",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name": "Alan Storm",
+            "email": "alanstorm@alanstorm.com",
+            "homepage": "http://alanstorm.com/",
+            "role": "Developer"
+        }
+    ]
+}
