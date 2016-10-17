@@ -221,7 +221,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                             // var url = 'http://magento1point7pointzeropoint1.dev/index.php/admin/index/globalSearch/key/ac3d62400d96f06be161863f7e4470d3/?query=nokia';
                             
                             var img = new Element('img');
-                            img.src = '/skin/adminhtml/default/default/images/ajax-loader.gif';                            
+                            img.src = '<?php echo Mage::getDesign()->getSkinUrl('images/ajax-loader.gif', array( '_theme' => 'default' )); ?>';                            
                             var p = new Element('p');
                             p.insert(img);
                             p.id = 'pulsestorm_launcher_throbber';
